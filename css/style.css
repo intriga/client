@@ -38,7 +38,7 @@ body{text-align: center;
 p {margin-bottom: 40px !important;}
 
 /* navbar */
-.topnav {
+/* .topnav {
   overflow: hidden;
   background-color: #333;
 }
@@ -88,8 +88,32 @@ p {margin-bottom: 40px !important;}
     text-align: left;
   }
 
+} */
+
+.navbar-default {
+    margin-bottom: 0;
+    background: #fff;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
 }
 
+.navbar li a, .navbar .navbar-brand {
+    color: #000 !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #fff !important;
+    background-color: #000 !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #000 !important;
+}
 
 /* Quienes Somos */
 .content{
@@ -115,6 +139,13 @@ p {margin-bottom: 40px !important;}
   padding-bottom: 40px;
 }
 
+.service-title{
+  background: radial-gradient(circle, #090000cc, #ff00, #00800000);
+}
+
+.service-paragraph{
+  background: radial-gradient(circle, #090000b3, #060600, #00800000);
+}
 
 /* 4. list */
 .list-services figure{position: relative; width: 150px; height: 190px;}
@@ -202,12 +233,14 @@ textarea {
 footer{
   padding-top: 40px;
   padding-bottom: 40px;
+  background: #000;
+  color: #fff;
 }
 footer ul i {
   font-size: 50px !important;
   margin-left: 10px;
   margin-right: 10px;
-  color: blue;
+  color: #fff;
 }
 footer ul i:hover {
   color: green;
