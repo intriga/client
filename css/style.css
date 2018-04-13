@@ -97,13 +97,14 @@ p {margin-bottom: 40px !important;}
 .navbar-default {
     margin-bottom: 0;
     background: #fff;
-    z-index: 9999;
+    z-index: 4 !important;
     border: 0;
     font-size: 14px !important;
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     line-height: 1.42857143 !important;
     letter-spacing: 4px;
     border-radius: 0;
+    box-shadow: -3px 1px 20px 0px;
 }
 
 .navbar li a, .navbar .navbar-brand {
@@ -119,6 +120,10 @@ p {margin-bottom: 40px !important;}
     border-color: transparent;
     color: #000 !important;
 }
+.img-alt{
+  height: 2em;
+  margin-top: -10px;
+}
 
 /* Quienes Somos */
 .content{
@@ -126,7 +131,7 @@ p {margin-bottom: 40px !important;}
   80px 0;
 }
 .who{
-  background: #fff;
+  background: #d9534f;
   color: #000;
   padding-top: 50px;
   padding-bottom: 40px;
@@ -165,7 +170,7 @@ p {margin-bottom: 40px !important;}
   padding-bottom: 40px;
 }
 
-/* contact */
+
 .parallax {
     /* The image used */
     background-image: url("../img/parallax.jpg");
@@ -186,6 +191,10 @@ p {margin-bottom: 40px !important;}
    }
 }
 
+/* contact */
+#contact{
+  background-color: #5cb85c;
+}
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 /* body { background:rgb(30,30,40); } */
@@ -199,7 +208,7 @@ form { max-width:420px; margin:50px auto; }
   border-radius: 5px;
   line-height: 22px;
   background-color: transparent;
-  border:2px solid #CC6666;
+  border:2px solid #f5f5f5;
   transition: all 0.3s;
   padding: 13px;
   margin-bottom: 15px;
@@ -208,7 +217,7 @@ form { max-width:420px; margin:50px auto; }
   outline:0;
 }
 
-.feedback-input:focus { border:2px solid #CC4949; }
+.feedback-input:focus { border:2px solid #f5f5f5;; }
 
 textarea {
   height: 150px;
@@ -219,7 +228,7 @@ textarea {
 [type="submit"] {
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
   width: 100%;
-  background:#CC6666;
+  background: #f0ad4e;
   border-radius:5px;
   border:0;
   cursor:pointer;
@@ -231,7 +240,7 @@ textarea {
   margin-top:-4px;
   font-weight:700;
 }
-[type="submit"]:hover { background:#CC4949; }
+[type="submit"]:hover { background:#f0ad4ec2; }
 
 
 /* footer */
